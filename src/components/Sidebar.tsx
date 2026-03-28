@@ -6,7 +6,7 @@ const navItems = [
   { icon: Calendar, label: "Bootcamps", path: "/bootcamps" },
   { icon: Gift, label: "VybeClubs", path: "/vybeclubs" },
   { icon: BookOpen, label: "Learn", path: "/learn" },
-  { icon: GraduationCap, label: "AI Engineering", path: "/ai-engineering" },
+  { icon: GraduationCap, label: "AI Engineering Bootcamp Syllabus", path: "/ai-engineering" },
 ];
 
 const Sidebar = () => {
