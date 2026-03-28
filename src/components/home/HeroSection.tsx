@@ -29,10 +29,10 @@ const HeroSection = () => (
         </Link>
       </div>
       <div className="mt-20">
-        <p className="text-sm text-muted-foreground mb-4">Join 5,639+ leaders from world's top product companies</p>
+        <p className="text-base text-foreground/80 mb-5 font-medium">Join 5,639+ leaders from world's top product companies</p>
         <div className="company-logo-bar flex-wrap">
           {companies.map((c) => (
-            <span key={c} className="text-foreground/60 font-body text-sm tracking-wider">{c}</span>
+            <span key={c} className="text-foreground/90 font-body text-base font-semibold tracking-wider">{c}</span>
           ))}
         </div>
       </div>
