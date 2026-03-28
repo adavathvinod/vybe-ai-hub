@@ -6,14 +6,14 @@ const navItems = [
   { icon: Calendar, label: "Bootcamps", path: "/bootcamps" },
   { icon: Gift, label: "VybeClubs", path: "/vybeclubs" },
   { icon: BookOpen, label: "Learn", path: "/learn" },
-  { icon: GraduationCap, label: "AI Engineering", path: "/ai-engineering" },
+  { icon: GraduationCap, label: "AI Engineering Bootcamp Syllabus", path: "/ai-engineering" },
 ];
 
 const Sidebar = () => {
   const location = useLocation();
 
   return (
-    <aside className="fixed left-0 top-0 z-50 h-screen w-[140px] flex flex-col justify-between py-8 px-4 bg-background/80 backdrop-blur-xl border-r border-border/30">
+    <aside className="fixed left-0 top-0 z-50 h-screen w-[200px] flex flex-col justify-between py-8 px-4 bg-background/80 backdrop-blur-xl border-r border-border/30">
       <div>
         <Link to="/" className="flex items-center gap-1 mb-10 px-2">
           <Sparkles className="w-5 h-5 text-primary" />
