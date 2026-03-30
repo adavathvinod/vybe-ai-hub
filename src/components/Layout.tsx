@@ -4,11 +4,11 @@ import TopBar from "./TopBar";
 import Footer from "./Footer";
 
 const Layout = ({ children }: { children: ReactNode }) => (
-  <div className="flex min-h-screen">
+  <div className="min-h-screen bg-background overflow-x-clip">
     <Sidebar />
-    <div className="flex-1 ml-[200px]">
+    <div className="min-h-screen w-full lg:ml-[200px] lg:w-[calc(100%-200px)] overflow-x-clip">
       <TopBar />
-      <main>{children}</main>
+      <main className="w-full overflow-x-clip">{children}</main>
       <Footer />
     </div>
   </div>

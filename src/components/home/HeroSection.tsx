@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.jpg";
 
-const companies = ["Google", "OpenAI", "Microsoft", "ElevenLabs", "Apple", "Zerodha", "Palantir", "Lovable"];
+const companies = ["Google", "OpenAI", "Microsoft", "ElevenLabs", "Apple", "Zerodha", "Palantir", "Anthropic"];
 
 const HeroSection = () => (
   <section className="relative min-h-screen flex items-center overflow-hidden">
